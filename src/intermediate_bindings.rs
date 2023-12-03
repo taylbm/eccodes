@@ -200,7 +200,7 @@ pub unsafe fn codes_get_string(handle: *mut codes_handle, key: &str) -> Result<S
     let error_code = eccodes_sys::codes_get_string(
         handle,
         key.as_ptr(),
-        key_message.as_mut_ptr() as *mut i8,
+        key_message.as_mut_ptr().cast::<i8>(),
         &mut key_length,
     );
 
