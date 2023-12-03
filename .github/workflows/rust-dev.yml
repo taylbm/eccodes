@@ -17,7 +17,7 @@ jobs:
       run: |
         apt-get update -y
         apt-get install -y clang \
-          libclang1
+          libclang1 \
           libeccodes-dev
         rustup update stable
         cargo clean
