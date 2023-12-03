@@ -1,6 +1,5 @@
 
 # eccodes
-forked from https://github.com/ScaleWeather/eccodes
 [![License](https://img.shields.io/github/license/ScaleWeather/eccodes)](https://choosealicense.com/licenses/apache-2.0/)
 [![Crates.io](https://img.shields.io/crates/v/eccodes)](https://crates.io/crates/eccodes)
 [![dependency status](https://deps.rs/repo/github/ScaleWeather/eccodes/status.svg)](https://deps.rs/repo/github/ScaleWeather/eccodes)

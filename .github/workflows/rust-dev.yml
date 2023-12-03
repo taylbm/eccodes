@@ -20,6 +20,7 @@ jobs:
           libclang1 \
           libeccodes-dev
         rustup update stable
+        rustup component add clippy
         cargo clean
     - name: Build with cargo
       run: |
