@@ -18,10 +18,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Prepare environment
       run: |
-        sudo apt-get update
-        sudo apt-get install clang
-        sudo apt-get install libclang1
-        sudo apt-get install libeccodes-dev
+        apt-get update -y
+        apt-get install -y clang \
+          libclang1
+          libeccodes-dev
         rustup update stable
         cargo install cargo-criterion
         cargo clean
